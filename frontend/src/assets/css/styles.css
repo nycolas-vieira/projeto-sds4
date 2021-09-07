@@ -31,4 +31,11 @@ html, body {
 .text-primary {
     color: var(--color-primary) !important;
 }
+.container {
+    margin-left: 3% !important;
+}
 
+.app-container {
+    margin-left: 4%;
+    margin-right: 4%;
+}
