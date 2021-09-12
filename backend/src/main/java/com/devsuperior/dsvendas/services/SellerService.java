@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface SellerService {
 
-    public List<SellerResponseDTO> findAll();
+    List<SellerResponseDTO> findAll();
 
 }

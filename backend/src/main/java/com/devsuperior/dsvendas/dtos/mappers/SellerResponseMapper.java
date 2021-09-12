@@ -13,7 +13,9 @@ public interface SellerResponseMapper {
     }
 
     static SellerResponseDTO fromEntityToDTO(Seller seller) {
-        return new SellerResponseDTO(seller.getId(), seller.getName());
+        return new SellerResponseDTO(
+                seller.getId(),
+                seller.getName());
     }
 
 }

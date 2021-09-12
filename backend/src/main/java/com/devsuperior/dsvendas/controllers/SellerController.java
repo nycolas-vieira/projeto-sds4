@@ -20,7 +20,7 @@ public class SellerController {
     }
 
     @GetMapping
-    public ResponseEntity<List<SellerResponseDTO>> findAll() throws Exception {
+    public ResponseEntity<List<SellerResponseDTO>> findAll() {
         var response = service.findAll();
 
         return ResponseEntity.ok(response);
